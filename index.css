@@ -1,6 +1,6 @@
 /* mobile view. Building mobile first finally, yay! \^o^/ */
 
-@media only screen and (max-width: 700px) and (orientation: portrait) {
+@media only screen and (max-width: 700px) {
     body {
         box-sizing: border-box;
         width: 100vw;
@@ -80,6 +80,15 @@
         color: hsl(218, 22%, 67%);
     }
 
+    div#bigbox div#secs0203 {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        display: inherit;
+        flex-direction: column;
+    }
+
     div#bigbox section#section-02 {
         display: inherit;
         flex-direction: inherit;
@@ -96,7 +105,7 @@
 
     div#bigbox section#section-02 h2 {
         color: hsl(204, 43%, 93%);
-        font-weight: 200;
+        font-weight: 100;
         margin: 0;
     }
 
@@ -125,6 +134,16 @@
         font-family: "Karla", sans-serif;
         color: white;
         box-shadow: 0.25vw 0.75vw 1.25vw 1vw hsl(168, 53%, 41%);
+    }
+
+    div#bigbox section#section-02 button:hover {
+        background-color: hsl(179, 47%, 52%);
+        transition: 0.25s all ease;
+    }
+
+    div#bigbox section#section-02 button:active {
+        background-color: hsl(179, 47%, 52%);
+        transition: 0.25s all ease;
     }
 
     a {
@@ -168,9 +187,15 @@
     div#bigbox section#section-03 ul {
         list-style-type: none;
         margin: 0;
+        margin-top: 2.5vw;
         padding: 0;
-        line-height: 5vw;
         color: hsl(204, 43%, 93%);
+    }
+
+    div#bigbox section#section-03 li {
+        font-size: 2.5vw;
+        font-weight: 400;
+        line-height: 5vw;
     }
 
     footer {
@@ -187,9 +212,241 @@
     }
 
     footer p {
+        display: initial;
+        width: 95%;
         text-align: center;
         align-self: center;
-        font-size: 3vw;
-        line-height: 4vw;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    body {
+        box-sizing: border-box;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(204, 43%, 93%);
+        margin: 0;
+        padding: 0;
+        border: 0;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        justify-content: space-around;
+        font-family: "Karla", sans-serif;
+    }
+
+    div#bigbox {
+        box-sizing: inherit;
+        display: inherit;
+        flex-direction: inherit;
+        width: 45vw;
+        height: 35vw;
+        max-height: max-content;
+        border-radius: 1vw;
+        align-self: center;
+        box-shadow: 0vw 2vw 5vw 1vw hsl(205, 25%, 80%);
+        text-align: left;
+        margin-top: 13.3333vw;
+    }
+
+    div#bigbox section#section-01 {
+        display: inherit;
+        flex-direction: inherit;
+        box-sizing: inherit;
+        height: 15vw;
+        background-color: white;
+        border-top-left-radius: 1.25vw;
+        border-top-right-radius: 1.25vw;
+        border: 0;
+        padding: 0 3.33333vw;
+    }
+
+    h1 {
+        display: inherit;
+        font-size: 1.75vw;
+        font-weight: 700;
+        margin-top: 3.3333vw;
+        letter-spacing: -0.05vw;
+    }
+
+    h2 {
+        display: inherit;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.35vw;
+        font-weight: 700;
+        letter-spacing: -0.05vw;
+        margin-top: 0;
+    }
+
+    p {
+        display: inherit;
+        font-size: 1vw;
+        font-weight: 400;
+        letter-spacing: 0.025vw;
+        line-height: 1.5vw;
+    }
+
+    div#bigbox section#section-01 h1 {
+        color: hsl(179, 62%, 43%);
+    }
+
+    div#bigbox section#section-01 h2 {
+        color: hsl(71, 73%, 54%);
+    }
+
+    div#bigbox section#section-01 p {
+        color: hsl(218, 22%, 67%);
+        margin-top: 0;
+        margin-bottom: 3.3333vw;
+    }
+
+    div#bigbox div#secs0203 {
+        width: 45vw;
+        height: 20vw;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        display: inherit;
+        flex-direction: row;
+    }
+
+    div#bigbox section#section-02 {
+        display: inherit;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 22.5vw;
+        height: 100%;
+        border-bottom-left-radius: 1vw;
+        background-color: hsl(179, 62%, 43%);
+        border: 0;
+        padding-left: 3.3333vw;
+        padding-right: -3.3333vw;
+    }
+
+    div#bigbox section#section-02 h1 {
+        color: white;
+        font-size: 1.35vw;
+        font-weight: 550;
+        letter-spacing: 0.0125vw;
+    }
+
+    div#bigbox section#section-02 h2 {
+        color: hsl(204, 43%, 93%);
+        font-weight: 50;
+        font-size: 1.25vw;
+        margin: 0;
+    }
+
+    div#bigbox section#section-02 h2 b {
+        font-size: 2.75vw;
+        color: white;
+        font-weight: 700;
+    }
+
+    div#bigbox section#section-02 p {
+        color: white;
+    }
+
+    div#bigbox section#section-02 button {
+        width: 16.527778vw;
+        height: 3.47222vw;
+        align-self: center;
+        border: 0;
+        margin: 0;
+        margin-top: 1.25vw;
+        background-color: hsl(71, 73%, 54%);
+        border-radius: 0.35vw;
+        font-size: 1vw;
+        font-weight: 700;
+        font-family: "Karla", sans-serif;
+        color: white;
+        box-shadow: 0.05vw 0.15vw 0.25vw 0.2vw hsl(168, 53%, 41%);
+    }
+
+    div#bigbox section#section-02 button:hover {
+        background-color: hsl(179, 47%, 52%);
+        transition: 0.25s all ease;
+    }
+
+    div#bigbox section#section-02 button:active {
+        background-color: hsl(179, 47%, 52%);
+        transition: 0.25s all ease;
+    }
+
+    a {
+        text-decoration: none;
+        color: hsl(71, 73%, 54%);
+    }
+
+    a:hover {
+        color: hsl(179, 47%, 52%);
+        font-weight: 700;
+        transition: 0.25s all ease;
+    }
+
+    a:active {
+        color: hsl(179, 47%, 52%);
+        font-weight: 700;
+        transition: 0.25s all ease;
+    }
+
+    a:visited {
+        color: hsl(200, 62%, 43%);
+        font-weight: 400;
+    }
+
+    div#bigbox section#section-03 {
+        display: inherit;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 22.5vw;
+        height: 100%;
+        border-bottom-right-radius: 1vw;
+        background-color: hsl(179, 62%, 43%);
+        border: 0;
+        padding: 0 1.56667vw;
+    }
+
+    div#bigbox section#section-03 h1 {
+        color: white;
+        font-size: 1.35vw;
+        font-weight: 550;
+        letter-spacing: 0.0125vw;
+    }
+
+    div#bigbox section#section-03 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        color: hsl(204, 43%, 93%);
+    }
+
+    div#bigbox section#section-03 li {
+        font-size: 1vw;
+        font-weight: 300;
+        line-height: 1.75vw;
+    }
+
+    footer {
+        width: inherit;
+        display: inherit;
+        flex-direction: inherit;
+        box-sizing: inherit;
+        align-items: center;
+        border: 0;
+        margin: 0;
+        margin-bottom: 10vw;
+        padding: 0;
+        font-size: 2vw;
+        font-weight: 400;
+    }
+
+    footer p {
+        display: initial;
+        width: 95%;
+        text-align: center;
+        align-self: center;
     }
 }
