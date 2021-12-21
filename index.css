@@ -244,7 +244,7 @@
         width: 45vw;
         height: 35vw;
         max-height: max-content;
-        border-radius: 1vw;
+        border-radius: 0.75vw;
         align-self: center;
         box-shadow: 0vw 2vw 5vw 1vw hsl(205, 25%, 80%);
         text-align: left;
@@ -257,8 +257,8 @@
         box-sizing: inherit;
         height: 15vw;
         background-color: white;
-        border-top-left-radius: 1.25vw;
-        border-top-right-radius: 1.25vw;
+        border-top-left-radius: 0.75vw;
+        border-top-right-radius: 0.75vw;
         border: 0;
         padding: 0 3.33333vw;
     }
@@ -319,7 +319,7 @@
         box-sizing: border-box;
         width: 22.5vw;
         height: 100%;
-        border-bottom-left-radius: 1vw;
+        border-bottom-left-radius: 0.75vw;
         background-color: hsl(179, 62%, 43%);
         border: 0;
         padding-left: 3.3333vw;
@@ -404,7 +404,7 @@
         box-sizing: border-box;
         width: 22.5vw;
         height: 100%;
-        border-bottom-right-radius: 1vw;
+        border-bottom-right-radius: 0.75vw;
         background-color: hsl(179, 62%, 43%);
         border: 0;
         padding: 0 1.56667vw;
