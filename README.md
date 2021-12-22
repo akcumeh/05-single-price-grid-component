@@ -24,7 +24,9 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop site screenshot](./site-screenshot.jpg)
+
+Screenshot taken with a Chrome extension for [FireShot](https://getfireshot.com).
 
 ### Links
 
@@ -55,4 +57,4 @@ I want to continue to make projects that are even more disability-inclusive. Tha
 
 ## Author
 
-You can find more of my solutions on my [Frontend Mentor profile](https://www.frontendmentor.io/profile/akcumeh). If you like what you see, follow me on Twitter - [@akcumeh](https://www.twitter.com/akcumeh) and [GitHub](https://github.com/akcumeh). :)
+You can find more of my solutions on my [Frontend Mentor profile](https://www.frontendmentor.io/profile/akcumeh). If you like what you see, follow me on [Twitter](https://www.twitter.com/akcumeh) and [GitHub](https://github.com/akcumeh). :)
